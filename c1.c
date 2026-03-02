@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main(){
 
+    /*1
+    1 2
+    1 2 3*/
+
 int n,row,col;
 printf("Enter N = ");
 scanf("%d",&n);
