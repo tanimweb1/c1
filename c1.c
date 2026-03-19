@@ -244,6 +244,22 @@ printf("\n");
   
 
 
+//5. Floyd’s Triangle
+int n,row,col,num=0;
+scanf("%d",&n);
+
+for(row = 1; row<=n;row++){
+
+for(col= 1; col<=row;col++){
+    num++;
+    printf("%d ",num);
+}
+printf("\n");
+
+}
+    
+
+    
     
     
 
