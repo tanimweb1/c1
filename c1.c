@@ -172,6 +172,21 @@ printf("\n");
 
 
 
+//1. Square Pattern    
+int n,row,col;
+scanf("%d",&n);
+
+for(row = 1; row<=n;row++){
+
+for(col= 1; col<=n;col++){
+    printf("*");
+}
+printf("\n");
+
+}
+
+
+    
     
 
 
